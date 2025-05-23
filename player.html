@@ -9,15 +9,16 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-white">
     <header>
         <nav class="navbar navbar-expand-md bg-black"> <!-- NAV BAR simples-->
             <div class="container-fluid">
-                <img height="50"
-                    src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif" alt="Grêmio FBPA">
+                <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif"
+                    alt="Grêmio FBPA">
                 <h1 class="d-block d-md-none text-white">GRÊMIO FBPA</h1>
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon icon-light"></span>
                 </button>
                 <div class="collapse navbar-collapse ms-2 text-white" id="navbarNav">
@@ -48,224 +49,234 @@
             </div>
         </nav>
     </header>
+    <header class="secundary p-3" style="background-color: #00ADEE;">
 
-    <main class="container">
-        <h2 class="py-2" style="background-color: #00ADEE;">Plantel Gremista</h2>
-        <h3>Goleiros</h3>
-        <div id="goleiro" class="carousel carousel-dark slide border">
-            <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
-                <button type="button" data-bs-target="#goleiro" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1" style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#goleiro" data-bs-slide-to="1" aria-label="Slide 2"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#goleiro" data-bs-slide-to="2" aria-label="Slide 3"
-                    style="background-color: #00ADEE"></button>
-            </div>
-            <div class="carousel-inner w-25 mx-auto">
-                <div class="carousel-item active">
-                    <img src="./imagens/jogadores/goleiros/volpi.png" class="d-block w-100" alt="Volpi">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Thiago Volpi</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/goleiros/grando.png" class="d-block w-100" alt="Grando">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Gabriel Grando</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/goleiros/beltrame.png" class="d-block w-100" alt="Beltrame">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Thiago Beltrame</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#goleiro"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-primary" type="button" data-bs-target="#goleiro"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        </div>
+        <h2 class="py-2 container">Plantel Gremista</h2>
+    </header>
 
-        <hr style="color: #00ADEE;">
-
-        <h3>Defensores</h3>
-        <div id="defesa" class="carousel carousel-dark slide border">
-            <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
-                <button type="button" data-bs-target="#defesa" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1" style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#defesa" data-bs-slide-to="1" aria-label="Slide 2"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#defesa" data-bs-slide-to="2" aria-label="Slide 3"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#defesa" data-bs-slide-to="3" aria-label="Slide 4"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#defesa" data-bs-slide-to="4" aria-label="Slide 5"
-                    style="background-color: #00ADEE"></button>
-            </div>
-            <div class="carousel-inner w-25 mx-auto">
-                <div class="carousel-item active">
-                    <img src="./imagens/jogadores/defensores/jp.png" class="d-block w-100" alt="João Pedro">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">João Pedro</h5>
+    <main class="">
+        <div class="volta bg-light py-3">
+            <section class="goleiros container">
+                <h3>Goleiros</h3>
+                <div id="goleiro" class="carousel carousel-dark slide border bg-white"> <!-- carrossel goleiros -->
+                    <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
+                        <button type="button" data-bs-target="#goleiro" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1" style="background-color: #00ADEE"></button>
+                        <button type="button" data-bs-target="#goleiro" data-bs-slide-to="1" aria-label="Slide 2"
+                            style="background-color: #00ADEE"></button>
+                        <button type="button" data-bs-target="#goleiro" data-bs-slide-to="2" aria-label="Slide 3"
+                            style="background-color: #00ADEE"></button>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/defensores/esteves.png" class="d-block w-100" alt="Lucas Esteves">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Lucas Esteves</h5>
+                    <div class="carousel-inner w-25 mx-auto">
+                        <div class="carousel-item active">
+                            <img src="./imagens/jogadores/goleiros/volpi.png" class="d-block w-100" alt="Volpi">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Thiago Volpi</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/jogadores/goleiros/grando.png" class="d-block w-100" alt="Grando">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Gabriel Grando</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/jogadores/goleiros/beltrame.png" class="d-block w-100" alt="Beltrame">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Thiago Beltrame</h5>
+                            </div>
+                        </div>
                     </div>
+                    <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#goleiro"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next bg-primary" type="button" data-bs-target="#goleiro"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/defensores/kannemann.png" class="d-block w-100" alt="Kannemann">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Kannemann</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/defensores/wl.png" class="d-block w-100" alt="Wagner Leonardo">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Wagner Leonardo</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/defensores/viery.png" class="d-block w-100" alt="Viery">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Viery</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#defesa"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-primary" type="button" data-bs-target="#defesa"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            </section>
         </div>
 
-        <hr style="color: #00ADEE;">
+        <section class="defensores container py-3">
+            <h3>Defensores</h3>
+            <div id="defesa" class="carousel carousel-dark slide border bg-white"><!-- carrossel defesa -->
+                <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
+                    <button type="button" data-bs-target="#defesa" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1" style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#defesa" data-bs-slide-to="1" aria-label="Slide 2"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#defesa" data-bs-slide-to="2" aria-label="Slide 3"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#defesa" data-bs-slide-to="3" aria-label="Slide 4"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#defesa" data-bs-slide-to="4" aria-label="Slide 5"
+                        style="background-color: #00ADEE"></button>
+                </div>
+                <div class="carousel-inner w-25 mx-auto">
+                    <div class="carousel-item active">
+                        <img src="./imagens/jogadores/defensores/jp.png" class="d-block w-100" alt="João Pedro">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">João Pedro</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/defensores/esteves.png" class="d-block w-100" alt="Lucas Esteves">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Lucas Esteves</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/defensores/kannemann.png" class="d-block w-100" alt="Kannemann">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Kannemann</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/defensores/wl.png" class="d-block w-100" alt="Wagner Leonardo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Wagner Leonardo</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/defensores/viery.png" class="d-block w-100" alt="Viery">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Viery</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#defesa"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-primary" type="button" data-bs-target="#defesa"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-        <h3>Meio-Campistas</h3>
-        <div id="meio" class="carousel carousel-dark slide border">
-            <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
-                <button type="button" data-bs-target="#meio" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1" style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#meio" data-bs-slide-to="1" aria-label="Slide 2"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#meio" data-bs-slide-to="2" aria-label="Slide 3"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#meio" data-bs-slide-to="3" aria-label="Slide 4"
-                    style="background-color: #00ADEE"></button>
-            </div>
-            <div class="carousel-inner w-25 mx-auto">
-                <div class="carousel-item active">
-                    <img src="./imagens/jogadores/meio/villasanti.png" class="d-block w-100" alt="Villasanti">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Villasanti</h5>
+        <div class="volta bg-light py-3">
+            <section class="meio-campo container">
+                <h3>Meio-Campistas</h3>
+                <div id="meio" class="carousel carousel-dark slide border bg-white"><!-- carrossel meio campo -->
+                    <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
+                        <button type="button" data-bs-target="#meio" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1" style="background-color: #00ADEE"></button>
+                        <button type="button" data-bs-target="#meio" data-bs-slide-to="1" aria-label="Slide 2"
+                            style="background-color: #00ADEE"></button>
+                        <button type="button" data-bs-target="#meio" data-bs-slide-to="2" aria-label="Slide 3"
+                            style="background-color: #00ADEE"></button>
+                        <button type="button" data-bs-target="#meio" data-bs-slide-to="3" aria-label="Slide 4"
+                            style="background-color: #00ADEE"></button>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/meio/cristaldo.png" class="d-block w-100" alt="Cristaldo">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Cristaldo</h5>
+                    <div class="carousel-inner w-25 mx-auto">
+                        <div class="carousel-item active">
+                            <img src="./imagens/jogadores/meio/villasanti.png" class="d-block w-100" alt="Villasanti">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Villasanti</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/jogadores/meio/cristaldo.png" class="d-block w-100" alt="Cristaldo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Cristaldo</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/jogadores/meio/monsalve.png" class="d-block w-100" alt="Monsalve">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Monsalve</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/jogadores/meio/superEd.png" class="d-block w-100" alt="Super Ed">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-white border">Edenilson</h5>
+                            </div>
+                        </div>
                     </div>
+                    <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#meio"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next bg-primary" type="button" data-bs-target="#meio"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/meio/monsalve.png" class="d-block w-100" alt="Monsalve">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Monsalve</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/meio/superEd.png" class="d-block w-100" alt="Super Ed">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Edenilson</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#meio" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-primary" type="button" data-bs-target="#meio" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            </section>
         </div>
 
-        <hr style="color: #00ADEE;">
-
-        <h3>Atancantes</h3>
-        <div id="ataque" class="carousel carousel-dark slide border mb-5">
-            <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
-                <button type="button" data-bs-target="#ataque" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1" style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#ataque" data-bs-slide-to="1" aria-label="Slide 2"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#ataque" data-bs-slide-to="2" aria-label="Slide 3"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#ataque" data-bs-slide-to="3" aria-label="Slide 4"
-                    style="background-color: #00ADEE"></button>
-                <button type="button" data-bs-target="#ataque" data-bs-slide-to="4" aria-label="Slide 5"
-                    style="background-color: #00ADEE"></button>
+        <section class="atacantes container py-3">
+            <h3>Atancantes</h3>
+            <div id="ataque" class="carousel carousel-dark slide border mb-5 bg-white"><!-- carrossel ataque -->
+                <div class="carousel-indicators bg-white border w-25 mx-auto d-none d-md-flex">
+                    <button type="button" data-bs-target="#ataque" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1" style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#ataque" data-bs-slide-to="1" aria-label="Slide 2"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#ataque" data-bs-slide-to="2" aria-label="Slide 3"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#ataque" data-bs-slide-to="3" aria-label="Slide 4"
+                        style="background-color: #00ADEE"></button>
+                    <button type="button" data-bs-target="#ataque" data-bs-slide-to="4" aria-label="Slide 5"
+                        style="background-color: #00ADEE"></button>
+                </div>
+                <div class="carousel-inner w-25 mx-auto">
+                    <div class="carousel-item active">
+                        <img src="./imagens/jogadores/ataque/braith.png" class="d-block w-100" alt="Braithwhite">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Braithwhite</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/ataque/olivera.png" class="d-block w-100" alt="Cristian Olivera">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Cristian Olivera</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/ataque/amuzu.png" class="d-block w-100" alt="Amuzu">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Amuzu</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/ataque/ah77.png" class="d-block w-100" alt="André Henrique 77">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">André Henrique</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/jogadores/ataque/alysson.png" class="d-block w-100" alt="Alysson">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="bg-white border">Alysson</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#ataque"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-primary" type="button" data-bs-target="#ataque"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner w-25 mx-auto">
-                <div class="carousel-item active">
-                    <img src="./imagens/jogadores/ataque/braith.png" class="d-block w-100" alt="Braithwhite">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Braithwhite</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/ataque/olivera.png" class="d-block w-100" alt="Cristian Olivera">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Cristian Olivera</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/ataque/amuzu.png" class="d-block w-100" alt="Amuzu">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Amuzu</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/ataque/ah77.png" class="d-block w-100" alt="André Henrique 77">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">André Henrique</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagens/jogadores/ataque/alysson.png" class="d-block w-100" alt="Alysson">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="bg-white border">Alysson</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#ataque"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-primary" type="button" data-bs-target="#ataque"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
     </main>
 
-    <footer class="bg-black text-white mx-auto" style="height: 150px;">
+    <footer class="bg-black text-white mx-auto d" style="height: 150px;">
         <div>
             <a href="">Site Oficial</a>
             <a href="">Twitter</a>
