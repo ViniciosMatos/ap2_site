@@ -240,29 +240,61 @@
                     Seja Sócio
                 </a>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse col-12" id="collapseExample">
                 <div class="card card-body">
-                    <form>
-                        <div class="input-group">
-                            <span class="input-group-text">Nome Completo</span>
-                            <input type="text" aria-label="name" class="form-control">
+                    <form class="row px-2 py-3">
+                        <div class="col-12 mb-3">
+                            <label for="name" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome aqui"
+                                maxlength="40">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="seuemail@exemplo.com" maxlength="40">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="inputAddress" class="form-label">Endereço</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Rua Exemplo, 123">
+                        </div>
+                        <div class="col-7 mb-3">
+                            <label for="inputCity" class="form-label">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-5 mb-3">
+                            <label for="inputState" class="form-label">Estado</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>RS</option>
+                                <option>SC</option>
+                                <option>PR</option>
+                            </select>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-radio" type="radio" name="radioDefault" id="diamante">
+                            <label class="form-check-label" for="diamante">Sócio Diamante</label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-radio" type="radio" name="radioDefault" id="ouro">
+                            <label class="form-check-label" for="ouro">Sócio Ouro</label>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button class="btn" type="submit" style="background-color: #00ADEE;">Cadastrar</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
 
+
     </main>
 
-    <footer class="bg-black text-white mx-auto" style="height: 150px;">
-
-        <div>
-            <a href="">Site Oficial</a>
-            <a href="">Twitter</a>
-            <a href="">Instagram</a>
+    <footer class="bg-black text-gray d-flex align-items-center justify-content-center flex-column gap-3" style="height: 150px;">
+        <div class="gap-3">
+            <a class="text-decoration-none mx-2" target="_blank" href="https://gremio.net">Site Oficial</a>
+            <a class="text-decoration-none mx-2" target="_blank" href="https://x.com/gremio">Twitter</a>
+            <a class="text-decoration-none mx-2" target="_blank" href="https://instagram.com/gremio">instagram</a>
         </div>
-        <p>Feito por: Vinicios Magnus de Matos</p>
-
+        <p>Feito por: Vinícios Magnus de Matos</p>
     </footer>
 
 
