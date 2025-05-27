@@ -11,39 +11,38 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-black"> <!-- NAV BAR simples-->
+        <nav class="navbar navbar-expand-md bg-black">
             <div class="container-fluid">
                 <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif"
                     alt="Grêmio FBPA">
                 <h1 class="d-block d-md-none text-white">GRÊMIO FBPA</h1>
-                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon icon-light"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse ms-2 text-white" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="index.html#jogos ">Jogos</a>
+                            <a class="nav-link text-white" href="index.html#jogos">Jogos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="player.html">Plantel</a>
                         </li>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Competições
-                            </button>
+                            </a>
                             <ul class="dropdown-menu bg-black">
                                 <li><a class="dropdown-item text-white" href="gaucho.html">Gauchão</a></li>
                                 <li><a class="dropdown-item text-white" href="cdb.html">Copa do Brasil</a></li>
                                 <li><a class="dropdown-item text-white" href="br.html">Brasileirão</a></li>
                             </ul>
-                        </div>
-
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                         <ul class="list-inline d-flex col-12 justify-content-center align-items-center">
                             <li class="h-100">
                                 <img class="h-100"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/2054px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png"
+                                    src="./imagens/TIMES/SAO.png"
                                     alt="São Paulo">
                             </li>
                             <li class="h-75 mx-3">
@@ -79,7 +78,7 @@
                             </li>
                             <li class="h-100">
                                 <img class="h-100"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif"
+                                    src="./imagens/TIMES/GRE.png"
                                     alt="Grêmio">
                             </li>
                         </ul>
@@ -134,8 +133,7 @@
                             </li>
                             <li class="h-100">
                                 <img class="h-100"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif"
-                                    alt="Grêmio">
+                                    src="./imagens/TIMES/GRE.png">
                             </li>
                         </ul>
                     </div>
@@ -179,7 +177,7 @@
                         <ul class="list-inline d-flex col-12 justify-content-center align-items-center">
                             <li class="h-100">
                                 <img class="h-100"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif"
+                                    src="./imagens/TIMES/GRE.png"
                                     alt="Grêmio">
                             </li>
                             <li class="h-75 mx-3">
@@ -189,7 +187,7 @@
                             </li>
                             <li class="h-100">
                                 <img class="h-100"
-                                    src="https://gremio.blob.core.windows.net/imgs-site/equipes-94b65bf79507418ecba12679836d2013.png"
+                                    src="./imagens/TIMES/ECJ.png"
                                     alt="Juventude">
                             </li>
                         </ul>
@@ -288,7 +286,8 @@
 
     </main>
 
-    <footer class="bg-black text-gray d-flex align-items-center justify-content-center flex-column gap-3" style="height: 150px;">
+    <footer class="bg-black text-gray d-flex align-items-center justify-content-center flex-column gap-3"
+        style="height: 150px;">
         <div class="gap-3">
             <a class="text-decoration-none mx-2" target="_blank" href="https://gremio.net">Site Oficial</a>
             <a class="text-decoration-none mx-2" target="_blank" href="https://x.com/gremio">Twitter</a>
